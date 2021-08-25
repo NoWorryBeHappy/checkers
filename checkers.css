@@ -1,0 +1,73 @@
+.brightSquare{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f5bb6f;
+    z-index: 1;
+}
+
+.darkSquare{
+    display: flex;
+    flex-wrap: wrap;
+    background: #bd7421;
+    z-index: 3;
+}
+
+.board{
+    margin: 20px auto;
+    width: 90vh;
+    height: 90vh;
+    outline: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    z-index: 0;
+}
+
+.redPiece{
+    margin: auto;
+    width: 65%;
+    height: 65%;
+	border-radius: 50%;
+    position: relative;
+    z-index: 4;
+    background: #ad0000;
+}
+
+.blackPiece{
+    margin: auto;
+    width: 65%;
+    height: 65%;
+	border-radius: 50%;
+    position: relative;
+    z-index: 4;
+    background: #474747;
+}
+
+.chosenPiece{
+    box-shadow: 0 0 0 5pt rgb(65, 212, 110);
+    
+}
+
+.outline{
+    outline: 5px solid rgb(142, 240, 171);
+    z-index: 2;
+}
+
+.redCrownhead{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+	border-radius: 50%;
+    position: relative;
+    z-index: 4;
+    background: #ad0000;
+}
+
+.blackCrownhead{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+	border-radius: 50%;
+    position: relative;
+    z-index: 4;
+    background: #474747;
+}
